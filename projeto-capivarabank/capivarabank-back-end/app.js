@@ -7,11 +7,6 @@ const app = express()
 app.use(express.json())
 app.use('/', routers)
 
-// app.post('/cadastre', (request, response) => {
-//     const dadosUsuario = request.body
-//     console.log(dadosUsuario)
-//     response.send('Usuário cadastrado com sucesso!')
-// })
 sequelize.sync().then(() => {
     console.log('conectado com o banco de dados')
 })

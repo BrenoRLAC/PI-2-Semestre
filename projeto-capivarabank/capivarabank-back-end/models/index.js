@@ -1,12 +1,13 @@
 const sequelize = require('../config/sequelize')
 const Sequelize = require('sequelize')
 
-const Usuario = require('./usuario')
+const Usuario = require('./conta')
 
-const usuario = Usuario(sequelize, Sequelize.DataTypes)
+const conta = Usuario(sequelize, Sequelize.DataTypes)
+
 
 const db = {
-    usuario,
+    conta,
     sequelize
 }
 
