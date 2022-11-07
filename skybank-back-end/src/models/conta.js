@@ -24,6 +24,9 @@ const conta = (sequelize, DataTypes) => {
             AllowNull: false
         }
      }, {
+        timestamps: false,
+        createdAt: false,
+        updatedAt: false,
             tableName: 'conta'
         })
         return Conta

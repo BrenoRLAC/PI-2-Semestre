@@ -29,6 +29,9 @@ const cliente = (sequelize, DataTypes) => {
                AllowNull: false
            }
         }, {
+            timestamps: false,
+            createdAt: false,
+            updatedAt: false,
                tableName: 'cliente'
            })
            return Cliente

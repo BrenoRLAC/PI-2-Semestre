@@ -18,9 +18,13 @@ const tipoMov = (sequelize, DataTypes) => {
            fk_cod_hist_mov: {
                type: DataTypes.INTEGER,
                AllowNull: false
-           }                      
+           },     
+
            
         }, {
+            timestamps: false,
+           createdAt: false,
+           updatedAt: false,
                tableName: 'tipo_mov'
            })
            return TipoMov

@@ -26,6 +26,9 @@ const histMovimentacao = (sequelize, DataTypes) => {
            }
            
         }, {
+            timestamps: false,
+            createdAt: false,
+            updatedAt: false,
                tableName: 'histMovimentacao'
            })
            return HistMovimentacao

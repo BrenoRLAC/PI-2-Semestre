@@ -36,6 +36,9 @@ const endereco = (sequelize, DataTypes) => {
             AllowNull: false    
         }
         }, {
+             timestamps: false,
+             createdAt: false,
+             updatedAt: false,
                tableName: 'endereco'
            })
            return Endereco
