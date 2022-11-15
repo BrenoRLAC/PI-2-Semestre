@@ -1,0 +1,111 @@
+/* screen - alter-endereco */
+
+.alter-endereco {
+  align-items: center;
+  background-color: var(--white);
+  border: 1px none;
+  border-radius: 15px;
+  box-shadow: 0px 4px 4px #0000000d;
+  display: flex;
+  flex-direction: column;
+  min-height: 343px;
+  overflow-x: hidden;
+  padding: 31px 0;
+  width: 1004px;
+}
+
+.alter-endereco .flex-row {
+  align-items: flex-start;
+  align-self: flex-start;
+  display: flex;
+  gap: 42px;
+  height: 105px;
+  margin-left: 42px;
+  min-width: 286px;
+}
+
+.alter-endereco .line-container {
+  height: 16px;
+  margin-top: 1px;
+  position: relative;
+  width: 18px;
+}
+
+.alter-endereco .line-72 {
+  height: 16px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 17px;
+}
+
+.alter-endereco .line-73 {
+  height: 16px;
+  left: 1px;
+  position: absolute;
+  top: 0;
+  width: 17px;
+}
+
+.alter-endereco .flex-col {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 1px;
+  min-height: 105px;
+  width: 226px;
+}
+
+.alter-endereco .endereo {
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 52px;
+  width: 226px;
+}
+
+.alter-endereco .rua-avenida {
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 52px;
+  width: 205px;
+}
+
+.alter-endereco .line-52 {
+  height: 3px;
+  margin-top: 7px;
+  width: 946px;
+}
+
+.alter-endereco .flex-row-1 {
+  align-items: center;
+  display: flex;
+  gap: 45px;
+  margin-left: 5.59px;
+  margin-top: 64px;
+  min-width: 840px;
+}
+
+.alter-endereco .line-69 {
+  align-self: flex-end;
+  height: 1px;
+  margin-bottom: 3.41px;
+  width: 611px;
+}
+
+.alter-endereco .overlap-group {
+  align-items: flex-start;
+  background-image: url(../img/rectangle-81-4@2x.png);
+  background-size: 100% 100%;
+  display: flex;
+  height: 55px;
+  min-width: 182px;
+  padding: 7.0px 47.2px;
+}
+
+.alter-endereco .salvar {
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 32px;
+  text-align: center;
+  width: 87px;
+}

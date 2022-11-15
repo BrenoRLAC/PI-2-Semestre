@@ -1,0 +1,950 @@
+/* screen - tela-ativ */
+
+.tela-ativ {
+  align-items: flex-start;
+  border: 1px none;
+  display: flex;
+  min-width: 1728px;
+  overflow-x: hidden;
+}
+
+.tela-ativ .overlap-group13 {
+  height: 1117px;
+  position: relative;
+  width: 1730px;
+}
+
+.tela-ativ .overlap-group-1 {
+  align-items: flex-start;
+  background: linear-gradient(180deg, rgb(90, 178, 245) 0%, rgb(42, 254, 215.84) 100%);
+  display: flex;
+  flex-direction: column;
+  left: 0;
+  min-height: 1117px;
+  position: absolute;
+  top: 0;
+  width: 1728px;
+}
+
+.tela-ativ .rectangle-177 {
+  background: linear-gradient(180deg, rgb(90, 178, 245) 0%, rgb(39, 152, 242) 100%);
+  border: 1px none;
+  box-shadow: 0px 4px 10px #0000001a;
+  height: 100px;
+  width: 1728px;
+}
+
+.tela-ativ .overlap-group-container {
+  align-items: flex-start;
+  display: flex;
+  height: 1017px;
+  min-width: 1728px;
+}
+
+.tela-ativ .overlap-group1 {
+  align-items: center;
+  background-color: var(--white);
+  box-shadow: 0px 4px 4px #0000001f;
+  display: flex;
+  flex-direction: column;
+  min-height: 1017px;
+  padding: 21px 0;
+  width: 297px;
+}
+
+.tela-ativ .rectangle-175 {
+  align-self: flex-start;
+  background: linear-gradient(180deg, rgb(39, 153, 242) 0%, rgb(90, 178, 245) 100%);
+  border: 1px none;
+  border-radius: 0px 10px 10px 0px;
+  height: 59px;
+  width: 4px;
+}
+
+.tela-ativ .line-35 {
+  height: 1px;
+  margin-right: 13.0px;
+  margin-top: 75px;
+  width: 236px;
+}
+
+.tela-ativ .line-33 {
+  height: 1px;
+  margin-right: 1.0px;
+  margin-top: 681px;
+  width: 236px;
+}
+
+.tela-ativ .line-34 {
+  height: 1px;
+  margin-right: 1.0px;
+  margin-top: 82px;
+  width: 236px;
+}
+
+.tela-ativ .skybank-container {
+  align-items: flex-start;
+  display: flex;
+  gap: 8px;
+  height: 49px;
+  margin-right: 8.0px;
+  margin-top: 23px;
+  min-width: 191px;
+}
+
+.tela-ativ .skybank-cloud {
+  align-self: flex-end;
+  height: 48px;
+  object-fit: cover;
+  width: 56px;
+}
+
+.tela-ativ .sky-bank {
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 47px;
+  opacity: 0.2;
+  width: 127px;
+}
+
+.tela-ativ .overlap-group2 {
+  align-items: flex-end;
+  background-color: var(--gallery);
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  min-height: 1017px;
+  padding: 43px 177px;
+  width: 1431px;
+}
+
+.tela-ativ .flex-row {
+  align-items: flex-start;
+  display: flex;
+  gap: 27px;
+  min-width: 1063px;
+}
+
+.tela-ativ .overlap-group4 {
+  align-items: flex-start;
+  background-color: var(--white);
+  border-radius: 15px;
+  box-shadow: 0px 4px 4px #0000000d;
+  display: flex;
+  flex-direction: column;
+  min-height: 337px;
+  width: 500px;
+}
+
+.tela-ativ .rectangle-201 {
+  background-color: var(--white);
+  border: 1px none;
+  border-radius: 15px 15px 0px 0px;
+  height: 142px;
+  width: 500px;
+}
+
+.tela-ativ .line-36 {
+  height: 1px;
+  width: 500px;
+}
+
+.tela-ativ .rectangle-180 {
+  background-color: var(--white);
+  border: 1px none;
+  border-radius: 15px;
+  box-shadow: 0px 4px 4px #0000000d;
+  height: 337px;
+  width: 536px;
+}
+
+.tela-ativ .line-container {
+  align-items: flex-start;
+  background-color: var(--white);
+  border-radius: 15px;
+  box-shadow: 0px 4px 4px #0000000d;
+  display: flex;
+  flex-direction: column;
+  min-height: 533px;
+  padding: 53px 0;
+  width: 1063px;
+}
+
+.tela-ativ .line-40 {
+  height: 1px;
+  width: 1063px;
+}
+
+.tela-ativ .line-41 {
+  height: 1px;
+  margin-top: 115px;
+  width: 1063px;
+}
+
+.tela-ativ .line-42 {
+  height: 1px;
+  margin-top: 114px;
+  width: 1063px;
+}
+
+.tela-ativ .botao-config {
+  align-items: flex-start;
+  display: flex;
+  gap: 19px;
+  height: 37px;
+  left: 24px;
+  min-width: 201px;
+  position: absolute;
+  top: 196px;
+}
+
+.tela-ativ .icon-settings {
+  height: 22px;
+  margin-top: 3px;
+  width: 23px;
+}
+
+.tela-ativ .configuraes {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  min-height: 37px;
+  width: 157px;
+}
+
+.tela-ativ .paginal_inicial_icone {
+  align-items: flex-start;
+  display: flex;
+  gap: 18px;
+  height: 37px;
+  left: 24px;
+  min-width: 201px;
+  position: absolute;
+  top: 135px;
+}
+
+.tela-ativ .overlap-group5 {
+  align-self: center;
+  height: 20px;
+  margin-bottom: 6.8px;
+  position: relative;
+  width: 24px;
+}
+
+.tela-ativ .rectangle-46 {
+  border: 2px solid;
+  border-color: transparent;
+  border-image: linear-gradient(to bottom, rgb(90, 178, 245), rgb(38, 154, 242)) 1;
+  border-radius: 2px;
+  height: 13px;
+  left: 2px;
+  position: absolute;
+  top: 8px;
+  width: 20px;
+}
+
+.tela-ativ .line-9 {
+  height: 1px;
+  left: 2px;
+  position: absolute;
+  top: 10px;
+  width: 21px;
+}
+
+.tela-ativ .rectangle-47 {
+  border: 2px solid;
+  border-color: transparent;
+  border-image: linear-gradient(to bottom, rgb(90, 178, 245), rgb(38, 154, 242)) 1;
+  border-radius: 1px;
+  height: 10px;
+  left: 8px;
+  position: absolute;
+  top: 11px;
+  width: 8px;
+}
+
+.tela-ativ .rectangle-48 {
+  background-color: var(--white);
+  border: 1px none;
+  height: 8px;
+  left: 10px;
+  position: absolute;
+  top: 13px;
+  width: 4px;
+}
+
+.tela-ativ .line-10 {
+  height: 11px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 12px;
+}
+
+.tela-ativ .line-11 {
+  height: 11px;
+  left: 12px;
+  position: absolute;
+  top: 0;
+  width: 12px;
+}
+
+.tela-ativ .pgina-inicial {
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent;
+  background: linear-gradient(180deg, rgb(90, 178, 245) 0%, rgb(39, 152, 242) 100%);
+  background-clip: text;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  min-height: 37px;
+  text-fill-color: transparent;
+  width: 157px;
+}
+
+.tela-ativ .ol-nome-do-usuario {
+  left: 109px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 22px;
+  width: 405px;
+}
+
+.tela-ativ .group-42 {
+  align-items: center;
+  background-color: var(--malibu);
+  border-radius: 33px/32.5px;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  left: 24px;
+  min-height: 65px;
+  padding: 7px 0;
+  position: absolute;
+  top: 17px;
+  width: 66px;
+}
+
+.tela-ativ .ellipse-63 {
+  border: 2.5px solid;
+  border-color: var(--white);
+  border-radius: 7.5px;
+  height: 15px;
+  margin-right: 1.0px;
+  margin-top: 10px;
+  width: 15px;
+}
+
+.tela-ativ .ellipse-64 {
+  border: 3px solid;
+  border-color: var(--white);
+  border-radius: 12px/11.5px;
+  height: 23px;
+  width: 24px;
+}
+
+.tela-ativ .overlap-group6 {
+  height: 293px;
+  left: 1038px;
+  position: absolute;
+  top: 165px;
+  width: 491px;
+}
+
+.tela-ativ .rectangle-60 {
+  background: linear-gradient(180deg, rgb(39, 190, 254) 0%, rgb(38, 154, 242) 100%);
+  border: 1px none;
+  border-radius: 11px;
+  box-shadow: 0px 4px 4px #00000036;
+  height: 293px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 487px;
+}
+
+.tela-ativ .carto-de-crdito {
+  left: 47px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 32px;
+  width: 444px;
+}
+
+.tela-ativ .fatura-atual {
+  left: 47px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 89px;
+  width: 101px;
+}
+
+.tela-ativ .text-1 {
+  left: 47px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 211px;
+  width: 106px;
+}
+
+.tela-ativ .nome-do-usuario {
+  left: 148px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 211px;
+  width: 234px;
+}
+
+.tela-ativ .limite-disponvel-de-r178010 {
+  left: 47px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 160px;
+  width: 444px;
+}
+
+.tela-ativ .x {
+  height: 22px;
+  left: 49px;
+  position: absolute;
+  top: 127px;
+  width: 81px;
+}
+
+.tela-ativ .vector-17 {
+  height: 15px;
+  left: 448px;
+  position: absolute;
+  top: 136px;
+  width: 7px;
+}
+
+.tela-ativ .rectangle-70 {
+  height: 55px;
+  left: 367px;
+  object-fit: cover;
+  position: absolute;
+  top: 193px;
+  width: 88px;
+}
+
+.tela-ativ .sair {
+  align-items: flex-start;
+  display: flex;
+  gap: 13px;
+  height: 37px;
+  left: 27px;
+  min-width: 89px;
+  position: absolute;
+  top: 962px;
+}
+
+.tela-ativ .overlap-group-2 {
+  align-self: center;
+  height: 22px;
+  margin-bottom: 5.0px;
+  position: relative;
+  width: 21px;
+}
+
+.tela-ativ .rectangle-180-1 {
+  border: 2px solid;
+  border-color: var(--cape-cod);
+  border-radius: 3px;
+  height: 22px;
+  left: 6px;
+  position: absolute;
+  top: 0;
+  width: 15px;
+}
+
+.tela-ativ .line-32 {
+  height: 1px;
+  left: 2px;
+  position: absolute;
+  top: 14px;
+  width: 13px;
+}
+
+.tela-ativ .line-31 {
+  height: 1px;
+  left: 1px;
+  position: absolute;
+  top: 12px;
+  width: 13px;
+}
+
+.tela-ativ .vector-19 {
+  height: 6px;
+  left: 0;
+  position: absolute;
+  top: 8px;
+  width: 3px;
+}
+
+.tela-ativ .sair-1 {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  min-height: 37px;
+  width: 53px;
+}
+
+.tela-ativ .icon-deposit {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 17px;
+  left: 844px;
+  min-height: 135px;
+  position: absolute;
+  top: 311px;
+  width: 109px;
+}
+
+.tela-ativ .overlap-group {
+  background-color: var(--white-2);
+  border: 2px solid;
+  border-color: var(--bon-jour);
+  border-radius: 46px/45.5px;
+  height: 91px;
+  position: relative;
+  width: 92px;
+}
+
+.tela-ativ .rectangle-161 {
+  border: 3px solid;
+  border-color: var(--cape-cod);
+  border-radius: 4px;
+  height: 26px;
+  left: 21px;
+  position: absolute;
+  top: 30px;
+  width: 46px;
+}
+
+.tela-ativ .ellipse-54 {
+  border: 2px solid;
+  border-color: var(--gravel);
+  border-radius: 6px;
+  height: 12px;
+  left: 38px;
+  position: absolute;
+  top: 37px;
+  width: 12px;
+}
+
+.tela-ativ .rectangle-162 {
+  background-color: var(--cape-cod);
+  border: 2px solid;
+  border-color: var(--white);
+  height: 17px;
+  left: 51px;
+  position: absolute;
+  top: 44px;
+  width: 8px;
+}
+
+.tela-ativ .polygon-7 {
+  height: 6px;
+  left: 50px;
+  position: absolute;
+  top: 57px;
+  width: 10px;
+}
+
+.tela-ativ .depositar {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 2px;
+  min-height: 26px;
+  width: 105px;
+}
+
+.tela-ativ .icon-transfer {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 17px;
+  left: 699px;
+  min-height: 135px;
+  position: absolute;
+  top: 311px;
+  width: 108px;
+}
+
+.tela-ativ .rectangle-163 {
+  border: 3px solid;
+  border-color: var(--cape-cod);
+  border-radius: 4px;
+  height: 26px;
+  left: 21px;
+  position: absolute;
+  top: 29px;
+  width: 46px;
+}
+
+.tela-ativ .ellipse-55 {
+  border: 2px solid;
+  border-color: var(--gravel);
+  border-radius: 6.5px/6px;
+  height: 12px;
+  left: 37px;
+  position: absolute;
+  top: 36px;
+  width: 13px;
+}
+
+.tela-ativ .rectangle-164 {
+  background-color: var(--cape-cod);
+  border: 2px solid;
+  border-color: var(--white);
+  height: 17px;
+  left: 51px;
+  position: absolute;
+  top: 46px;
+  width: 8px;
+}
+
+.tela-ativ .polygon-8 {
+  height: 6px;
+  left: 50px;
+  position: absolute;
+  top: 44px;
+  width: 10px;
+}
+
+.tela-ativ .transferir {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 1px;
+  min-height: 26px;
+  width: 105px;
+}
+
+.tela-ativ .sua-atividade {
+  left: 510px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 536px;
+  width: 206px;
+}
+
+.tela-ativ .voc-fez-uma-transferncia {
+  left: 609px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 618px;
+  width: 410px;
+}
+
+.tela-ativ .voc-recebeu-uma-transferncia {
+  left: 609px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 734px;
+  width: 429px;
+}
+
+.tela-ativ .r-20000 {
+  left: 1405px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 611px;
+  width: 114px;
+}
+
+.tela-ativ .r-15000 {
+  left: 1405px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 721px;
+  width: 124px;
+}
+
+.tela-ativ .hoje {
+  left: 1436px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 640px;
+  width: 53px;
+}
+
+.tela-ativ .ontem {
+  left: 1430px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 747px;
+  width: 74px;
+}
+
+.tela-ativ .group-69 {
+  align-items: flex-end;
+  background-color: var(--white-2);
+  border: 1px solid;
+  border-color: var(--celeste);
+  border-radius: 37.91px/37.5px;
+  display: flex;
+  height: 75px;
+  left: 507px;
+  min-width: 76px;
+  padding: 21.4px 19.0px;
+  position: absolute;
+  top: 719px;
+}
+
+.tela-ativ .overlap-group9 {
+  height: 27px;
+  position: relative;
+  width: 38px;
+}
+
+.tela-ativ .rectangle-161-1 {
+  border: 3px solid;
+  border-color: var(--celeste);
+  border-radius: 4px;
+  height: 21px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 38px;
+}
+
+.tela-ativ .ellipse-54-1 {
+  border: 2px solid;
+  border-color: var(--celeste);
+  border-radius: 4.95px;
+  height: 10px;
+  left: 14px;
+  position: absolute;
+  top: 6px;
+  width: 10px;
+}
+
+.tela-ativ .rectangle-162-1 {
+  background-color: var(--celeste);
+  border: 2px solid;
+  border-color: var(--white);
+  height: 14px;
+  left: 25px;
+  position: absolute;
+  top: 12px;
+  width: 7px;
+}
+
+.tela-ativ .polygon-7-1 {
+  height: 5px;
+  left: 24px;
+  position: absolute;
+  top: 22px;
+  width: 8px;
+}
+
+.tela-ativ .group-70 {
+  align-items: flex-end;
+  background-color: var(--white-2);
+  border: 1px solid;
+  border-color: var(--celeste);
+  border-radius: 38.5px/38.08px;
+  display: flex;
+  height: 76px;
+  left: 505px;
+  min-width: 77px;
+  padding: 21.8px 19.2px;
+  position: absolute;
+  top: 603px;
+}
+
+.tela-ativ .overlap-group10 {
+  height: 28px;
+  position: relative;
+  width: 38px;
+}
+
+.tela-ativ .rectangle-163-1 {
+  border: 3px solid;
+  border-color: var(--celeste);
+  border-radius: 4px;
+  height: 22px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 38px;
+}
+
+.tela-ativ .ellipse-55-1 {
+  border: 2px solid;
+  border-color: var(--celeste);
+  border-radius: 5.44px/5.02px;
+  height: 10px;
+  left: 13px;
+  position: absolute;
+  top: 6px;
+  width: 11px;
+}
+
+.tela-ativ .rectangle-164-1 {
+  background-color: var(--celeste);
+  border: 2px solid;
+  border-color: var(--white);
+  height: 14px;
+  left: 25px;
+  position: absolute;
+  top: 14px;
+  width: 7px;
+}
+
+.tela-ativ .polygon-8-1 {
+  height: 5px;
+  left: 24px;
+  position: absolute;
+  top: 13px;
+  width: 8px;
+}
+
+.tela-ativ .saldo-conta {
+  align-items: flex-start;
+  display: flex;
+  gap: 11px;
+  height: 119px;
+  left: 509px;
+  min-width: 362px;
+  position: absolute;
+  top: 154px;
+}
+
+.tela-ativ .overlap-group11 {
+  height: 119px;
+  margin-top: -1px;
+  position: relative;
+  width: 324px;
+}
+
+.tela-ativ .conta {
+  left: 1px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+  width: 124px;
+}
+
+.tela-ativ .price {
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 30px;
+  width: 324px;
+}
+
+.tela-ativ .ellipse-container {
+  align-self: center;
+  border-radius: 11.5px/11px;
+  height: 22px;
+  margin-top: 31.0px;
+  position: relative;
+  width: 23px;
+}
+
+.tela-ativ .ellipse-56 {
+  border: 2px solid;
+  border-color: var(--cape-cod);
+  border-radius: 4.5px;
+  height: 9px;
+  left: 7px;
+  position: absolute;
+  top: 5px;
+  width: 9px;
+}
+
+.tela-ativ .ellipse-58 {
+  border: 2px solid;
+  border-color: var(--cape-cod);
+  border-radius: 11.5px/11px;
+  height: 22px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 23px;
+}
+
+.tela-ativ .icon-ativ-selec {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 17px;
+  left: 545px;
+  min-height: 138px;
+  position: absolute;
+  top: 311px;
+  width: 96px;
+}
+
+.tela-ativ .overlap-group12 {
+  align-items: flex-start;
+  background-color: var(--white-2);
+  border: 2px solid;
+  border-color: #46a8f4;
+  border-radius: 46px/45.5px;
+  display: flex;
+  height: 91px;
+  min-width: 92px;
+  padding: 28px 21px;
+}
+
+.tela-ativ .group-87 {
+  align-items: center;
+  border: 3px solid;
+  border-color: #45a7f4;
+  display: flex;
+  flex-direction: column;
+  min-height: 31px;
+  padding: 6px 0;
+  width: 46px;
+}
+
+.tela-ativ .line-52 {
+  height: 1px;
+  margin-right: 7.0px;
+  width: 43px;
+}
+
+.tela-ativ .line-53 {
+  height: 1px;
+  margin-right: 6.0px;
+  margin-top: 6px;
+  width: 22px;
+}
+
+.tela-ativ .line-54 {
+  height: 1px;
+  margin-right: 6.0px;
+  margin-top: 5px;
+  width: 22px;
+}
+
+.tela-ativ .atividade {
+  color: #48a9f4;
+  font-family: var(--font-family-baloo_da-regular);
+  font-size: var(--font-size-s);
+  font-weight: 400;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 1px;
+  min-height: 29px;
+  width: 93px;
+}

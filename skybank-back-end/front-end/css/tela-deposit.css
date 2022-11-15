@@ -1,0 +1,816 @@
+/* screen - tela-deposit */
+
+.tela-deposit {
+  align-items: flex-start;
+  border: 1px none;
+  display: flex;
+  min-width: 1728px;
+  overflow-x: hidden;
+}
+
+.tela-deposit .overlap-group12 {
+  height: 1117px;
+  position: relative;
+  width: 1730px;
+}
+
+.tela-deposit .overlap-group {
+  align-items: flex-start;
+  background: linear-gradient(180deg, rgb(90, 178, 245) 0%, rgb(42, 254, 215.84) 100%);
+  display: flex;
+  flex-direction: column;
+  left: 0;
+  min-height: 1117px;
+  position: absolute;
+  top: 0;
+  width: 1728px;
+}
+
+.tela-deposit .rectangle-177 {
+  background: linear-gradient(180deg, rgb(90, 178, 245) 0%, rgb(39, 152, 242) 100%);
+  border: 1px none;
+  box-shadow: 0px 4px 10px #0000001a;
+  height: 100px;
+  width: 1728px;
+}
+
+.tela-deposit .overlap-group-container {
+  align-items: flex-start;
+  display: flex;
+  min-width: 1728px;
+}
+
+.tela-deposit .line-container {
+  align-items: center;
+  background-color: var(--white);
+  box-shadow: 0px 4px 4px #0000001f;
+  display: flex;
+  flex-direction: column;
+  min-height: 1017px;
+  padding: 96px 24px;
+  width: 297px;
+}
+
+.tela-deposit .line-35 {
+  align-self: flex-start;
+  height: 1px;
+  margin-top: 59px;
+  width: 236px;
+}
+
+.tela-deposit .line-33 {
+  height: 1px;
+  margin-right: 1.0px;
+  margin-top: 681px;
+  width: 236px;
+}
+
+.tela-deposit .line-34 {
+  height: 1px;
+  margin-right: 1.0px;
+  margin-top: 82px;
+  width: 236px;
+}
+
+.tela-deposit .overlap-group1 {
+  align-items: flex-start;
+  background-color: var(--gallery);
+  display: flex;
+  gap: 27px;
+  height: 1017px;
+  justify-content: flex-end;
+  min-width: 1431px;
+  padding: 43px 177px;
+}
+
+.tela-deposit .overlap-group3 {
+  align-items: flex-start;
+  background-color: var(--white);
+  border-radius: 15px;
+  box-shadow: 0px 4px 4px #0000000d;
+  display: flex;
+  flex-direction: column;
+  min-height: 337px;
+  width: 500px;
+}
+
+.tela-deposit .overlap-group4 {
+  align-items: flex-start;
+  background-color: var(--white);
+  border-radius: 15px 15px 0px 0px;
+  display: flex;
+  height: 142px;
+  min-width: 500px;
+  padding: 10px 22px;
+}
+
+.tela-deposit .conta {
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 52px;
+  width: 124px;
+}
+
+.tela-deposit .line-36 {
+  height: 1px;
+  width: 500px;
+}
+
+.tela-deposit .rectangle-180 {
+  background-color: var(--white);
+  border: 1px none;
+  border-radius: 15px;
+  box-shadow: 0px 4px 4px #0000000d;
+  height: 337px;
+  width: 536px;
+}
+
+.tela-deposit .botao-config {
+  align-items: flex-start;
+  display: flex;
+  gap: 19px;
+  height: 37px;
+  left: 24px;
+  min-width: 201px;
+  position: absolute;
+  top: 196px;
+}
+
+.tela-deposit .icon-settings {
+  height: 22px;
+  margin-top: 3px;
+  width: 23px;
+}
+
+.tela-deposit .configuraes {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  min-height: 37px;
+  width: 157px;
+}
+
+.tela-deposit .paginal_inicial_icone {
+  align-items: center;
+  display: flex;
+  height: 59px;
+  left: 0;
+  min-width: 225px;
+  position: absolute;
+  top: 121px;
+}
+
+.tela-deposit .rectangle-175 {
+  background: linear-gradient(180deg, rgb(39, 153, 242) 0%, rgb(90, 178, 245) 100%);
+  border: 1px none;
+  border-radius: 0px 10px 10px 0px;
+  height: 59px;
+  width: 4px;
+}
+
+.tela-deposit .overlap-group5 {
+  height: 20px;
+  margin-bottom: 0.8px;
+  margin-left: 20px;
+  position: relative;
+  width: 24px;
+}
+
+.tela-deposit .rectangle-46 {
+  border: 2px solid;
+  border-color: transparent;
+  border-image: linear-gradient(to bottom, rgb(90, 178, 245), rgb(38, 154, 242)) 1;
+  border-radius: 2px;
+  height: 13px;
+  left: 2px;
+  position: absolute;
+  top: 8px;
+  width: 20px;
+}
+
+.tela-deposit .line-9 {
+  height: 1px;
+  left: 2px;
+  position: absolute;
+  top: 10px;
+  width: 21px;
+}
+
+.tela-deposit .rectangle-47 {
+  border: 2px solid;
+  border-color: transparent;
+  border-image: linear-gradient(to bottom, rgb(90, 178, 245), rgb(38, 154, 242)) 1;
+  border-radius: 1px;
+  height: 10px;
+  left: 8px;
+  position: absolute;
+  top: 11px;
+  width: 8px;
+}
+
+.tela-deposit .rectangle-48 {
+  background-color: var(--white);
+  border: 1px none;
+  height: 8px;
+  left: 10px;
+  position: absolute;
+  top: 13px;
+  width: 4px;
+}
+
+.tela-deposit .line-10 {
+  height: 11px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 12px;
+}
+
+.tela-deposit .line-11 {
+  height: 11px;
+  left: 12px;
+  position: absolute;
+  top: 0;
+  width: 12px;
+}
+
+.tela-deposit .pgina-inicial {
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent;
+  background: linear-gradient(180deg, rgb(90, 178, 245) 0%, rgb(39, 152, 242) 100%);
+  background-clip: text;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 18px;
+  margin-top: 4.0px;
+  min-height: 37px;
+  text-fill-color: transparent;
+  width: 157px;
+}
+
+.tela-deposit .ol-nome-do-usuario {
+  left: 109px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 22px;
+  width: 405px;
+}
+
+.tela-deposit .group-42 {
+  align-items: center;
+  background-color: var(--malibu);
+  border-radius: 33px/32.5px;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  left: 24px;
+  min-height: 65px;
+  padding: 7px 0;
+  position: absolute;
+  top: 17px;
+  width: 66px;
+}
+
+.tela-deposit .ellipse-63 {
+  border: 2.5px solid;
+  border-color: var(--white);
+  border-radius: 7.5px;
+  height: 15px;
+  margin-right: 1.0px;
+  margin-top: 10px;
+  width: 15px;
+}
+
+.tela-deposit .ellipse-64 {
+  border: 3px solid;
+  border-color: var(--white);
+  border-radius: 12px/11.5px;
+  height: 23px;
+  width: 24px;
+}
+
+.tela-deposit .overlap-group6 {
+  height: 293px;
+  left: 1038px;
+  position: absolute;
+  top: 165px;
+  width: 491px;
+}
+
+.tela-deposit .rectangle-60 {
+  background: linear-gradient(180deg, rgb(39, 190, 254) 0%, rgb(38, 154, 242) 100%);
+  border: 1px none;
+  border-radius: 11px;
+  box-shadow: 0px 4px 4px #00000036;
+  height: 293px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 487px;
+}
+
+.tela-deposit .carto-de-crdito {
+  left: 47px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 32px;
+  width: 444px;
+}
+
+.tela-deposit .fatura-atual {
+  left: 47px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 89px;
+  width: 101px;
+}
+
+.tela-deposit .text-8 {
+  left: 47px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 211px;
+  width: 106px;
+}
+
+.tela-deposit .nome-do-usuario {
+  left: 148px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 211px;
+  width: 234px;
+}
+
+.tela-deposit .limite-disponvel-de-r178010 {
+  left: 47px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 160px;
+  width: 444px;
+}
+
+.tela-deposit .x {
+  height: 22px;
+  left: 49px;
+  position: absolute;
+  top: 127px;
+  width: 81px;
+}
+
+.tela-deposit .vector-17 {
+  height: 15px;
+  left: 448px;
+  position: absolute;
+  top: 136px;
+  width: 7px;
+}
+
+.tela-deposit .rectangle-70 {
+  height: 55px;
+  left: 367px;
+  object-fit: cover;
+  position: absolute;
+  top: 193px;
+  width: 88px;
+}
+
+.tela-deposit .botao-sair {
+  align-items: flex-start;
+  display: flex;
+  gap: 13px;
+  height: 37px;
+  left: 27px;
+  min-width: 89px;
+  position: absolute;
+  top: 962px;
+}
+
+.tela-deposit .overlap-group-1 {
+  align-self: center;
+  height: 22px;
+  margin-bottom: 5.0px;
+  position: relative;
+  width: 21px;
+}
+
+.tela-deposit .rectangle-180-1 {
+  border: 2px solid;
+  border-color: var(--cape-cod);
+  border-radius: 3px;
+  height: 22px;
+  left: 6px;
+  position: absolute;
+  top: 0;
+  width: 15px;
+}
+
+.tela-deposit .line-32 {
+  height: 1px;
+  left: 2px;
+  position: absolute;
+  top: 14px;
+  width: 13px;
+}
+
+.tela-deposit .line-31 {
+  height: 1px;
+  left: 1px;
+  position: absolute;
+  top: 12px;
+  width: 13px;
+}
+
+.tela-deposit .vector-19 {
+  height: 6px;
+  left: 0;
+  position: absolute;
+  top: 8px;
+  width: 3px;
+}
+
+.tela-deposit .sair {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  min-height: 37px;
+  width: 53px;
+}
+
+.tela-deposit .skybank-cloud {
+  height: 48px;
+  left: 49px;
+  object-fit: cover;
+  position: absolute;
+  top: 1045px;
+  width: 56px;
+}
+
+.tela-deposit .sky-bank {
+  left: 113px;
+  letter-spacing: 0;
+  line-height: normal;
+  opacity: 0.2;
+  position: absolute;
+  top: 1044px;
+  width: 127px;
+}
+
+.tela-deposit .icon-deposit-selec {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 17px;
+  left: 844px;
+  min-height: 135px;
+  position: absolute;
+  top: 311px;
+  width: 109px;
+}
+
+.tela-deposit .overlap-group7 {
+  background-color: var(--white-2);
+  border: 2px solid;
+  border-color: var(--picton-blue-2);
+  border-radius: 46px/45.5px;
+  height: 91px;
+  position: relative;
+  width: 92px;
+}
+
+.tela-deposit .rectangle-161 {
+  border: 3px solid;
+  border-color: var(--picton-blue-2);
+  border-radius: 4px;
+  height: 26px;
+  left: 21px;
+  position: absolute;
+  top: 30px;
+  width: 46px;
+}
+
+.tela-deposit .ellipse-54 {
+  border: 2px solid;
+  border-color: var(--picton-blue-5);
+  border-radius: 6px;
+  height: 12px;
+  left: 38px;
+  position: absolute;
+  top: 37px;
+  width: 12px;
+}
+
+.tela-deposit .rectangle-162 {
+  background-color: var(--picton-blue-2);
+  border: 2px solid;
+  border-color: var(--white);
+  height: 17px;
+  left: 51px;
+  position: absolute;
+  top: 44px;
+  width: 8px;
+}
+
+.tela-deposit .polygon-7 {
+  height: 6px;
+  left: 50px;
+  position: absolute;
+  top: 57px;
+  width: 10px;
+}
+
+.tela-deposit .depositar {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 2px;
+  min-height: 26px;
+  width: 105px;
+}
+
+.tela-deposit .icon-transfer {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 17px;
+  left: 699px;
+  min-height: 135px;
+  position: absolute;
+  top: 311px;
+  width: 108px;
+}
+
+.tela-deposit .overlap-group8 {
+  background-color: var(--white-2);
+  border: 2px solid;
+  border-color: var(--bon-jour);
+  border-radius: 46px/45.5px;
+  height: 91px;
+  position: relative;
+  width: 92px;
+}
+
+.tela-deposit .rectangle-163 {
+  border: 3px solid;
+  border-color: var(--cape-cod);
+  border-radius: 4px;
+  height: 26px;
+  left: 21px;
+  position: absolute;
+  top: 29px;
+  width: 46px;
+}
+
+.tela-deposit .ellipse-55 {
+  border: 2px solid;
+  border-color: var(--gravel);
+  border-radius: 6.5px/6px;
+  height: 12px;
+  left: 37px;
+  position: absolute;
+  top: 36px;
+  width: 13px;
+}
+
+.tela-deposit .rectangle-164 {
+  background-color: var(--cape-cod);
+  border: 2px solid;
+  border-color: var(--white);
+  height: 17px;
+  left: 51px;
+  position: absolute;
+  top: 46px;
+  width: 8px;
+}
+
+.tela-deposit .polygon-8 {
+  height: 6px;
+  left: 50px;
+  position: absolute;
+  top: 44px;
+  width: 10px;
+}
+
+.tela-deposit .transferir {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 1px;
+  min-height: 26px;
+  width: 105px;
+}
+
+.tela-deposit .price {
+  left: 509px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 183px;
+  width: 324px;
+}
+
+.tela-deposit .ellipse-container {
+  border-radius: 11.5px/11px;
+  height: 22px;
+  left: 844px;
+  position: absolute;
+  top: 218px;
+  width: 23px;
+}
+
+.tela-deposit .ellipse-56 {
+  border: 2px solid;
+  border-color: var(--cape-cod);
+  border-radius: 4.5px;
+  height: 9px;
+  left: 7px;
+  position: absolute;
+  top: 5px;
+  width: 9px;
+}
+
+.tela-deposit .ellipse-58 {
+  border: 2px solid;
+  border-color: var(--cape-cod);
+  border-radius: 11.5px/11px;
+  height: 22px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 23px;
+}
+
+.tela-deposit .icon-ativ {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 17px;
+  left: 545px;
+  min-height: 138px;
+  position: absolute;
+  top: 311px;
+  width: 96px;
+}
+
+.tela-deposit .overlap-group10 {
+  align-items: flex-start;
+  background-color: var(--white-2);
+  border: 2px solid;
+  border-color: var(--bon-jour);
+  border-radius: 46px/45.5px;
+  display: flex;
+  height: 91px;
+  min-width: 92px;
+  padding: 28px 21px;
+}
+
+.tela-deposit .group-87 {
+  align-items: center;
+  border: 3px solid;
+  border-color: var(--cape-cod);
+  display: flex;
+  flex-direction: column;
+  min-height: 31px;
+  padding: 6px 0;
+  width: 46px;
+}
+
+.tela-deposit .line-52 {
+  height: 1px;
+  margin-right: 7.0px;
+  width: 43px;
+}
+
+.tela-deposit .line-53 {
+  height: 1px;
+  margin-right: 6.0px;
+  margin-top: 6px;
+  width: 22px;
+}
+
+.tela-deposit .line-54 {
+  height: 1px;
+  margin-right: 6.0px;
+  margin-top: 5px;
+  width: 22px;
+}
+
+.tela-deposit .atividade {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 1px;
+  min-height: 29px;
+  width: 93px;
+}
+
+.tela-deposit .overlap-group11 {
+  align-items: center;
+  background-color: var(--white);
+  border-radius: 15px;
+  box-shadow: 0px 4px 4px #0000000d;
+  display: flex;
+  flex-direction: column;
+  left: 488px;
+  min-height: 533px;
+  padding: 6px 0;
+  position: absolute;
+  top: 530px;
+  width: 1063px;
+}
+
+.tela-deposit .depositar-1 {
+  align-self: flex-start;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 22px;
+  min-height: 46px;
+  width: 206px;
+}
+
+.tela-deposit .overlap-group3-1 {
+  align-items: flex-start;
+  background-image: url(../img/line-42-1@2x.png);
+  background-size: 100% 100%;
+  display: flex;
+  margin-top: 1px;
+  min-width: 1063px;
+}
+
+.tela-deposit .line-65 {
+  height: 1px;
+  width: 1063px;
+}
+
+.tela-deposit .overlap-group-2 {
+  height: 136px;
+  margin-left: 64.0px;
+  margin-top: 37px;
+  position: relative;
+  width: 567px;
+}
+
+.tela-deposit .qual-valor-voc-quer {
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+  width: 567px;
+}
+
+.tela-deposit .depositar-2 {
+  left: 1px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 61px;
+  width: 440px;
+}
+
+.tela-deposit .overlap-group2 {
+  height: 89px;
+  margin-right: 89.0px;
+  margin-top: 39px;
+  position: relative;
+  width: 408px;
+}
+
+.tela-deposit .price-1 {
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+  width: 324px;
+}
+
+.tela-deposit .line-20 {
+  height: 1px;
+  left: 6px;
+  position: absolute;
+  top: 79px;
+  width: 402px;
+}
+
+.tela-deposit .overlap-group1-1 {
+  align-items: flex-start;
+  background-image: url(../img/rectangle-81-14@2x.png);
+  background-size: 100% 100%;
+  display: flex;
+  height: 55px;
+  justify-content: flex-end;
+  margin-left: 15.0px;
+  margin-top: 45px;
+  min-width: 516px;
+  padding: 8.0px 178.3px;
+}
+
+.tela-deposit .depositar-3 {
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 32px;
+  width: 142px;
+}

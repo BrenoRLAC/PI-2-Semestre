@@ -1,0 +1,898 @@
+/* screen - tela-transfer-verso */
+
+.tela-transfer-verso {
+  align-items: flex-start;
+  border: 1px none;
+  display: flex;
+  min-width: 1728px;
+  overflow-x: hidden;
+}
+
+.tela-transfer-verso .overlap-group12 {
+  height: 1117px;
+  position: relative;
+  width: 1732px;
+}
+
+.tela-transfer-verso .overlap-group1 {
+  align-items: flex-start;
+  background: linear-gradient(180deg, rgb(90, 178, 245) 0%, rgb(42, 254, 215.84) 100%);
+  display: flex;
+  flex-direction: column;
+  left: 0;
+  min-height: 1117px;
+  position: absolute;
+  top: 0;
+  width: 1728px;
+}
+
+.tela-transfer-verso .rectangle-187 {
+  background: linear-gradient(180deg, rgb(90, 178, 245) 0%, rgb(39, 152, 242) 100%);
+  border: 1px none;
+  box-shadow: 0px 4px 10px #0000001a;
+  height: 100px;
+  width: 1728px;
+}
+
+.tela-transfer-verso .overlap-group-container {
+  align-items: flex-start;
+  display: flex;
+  height: 1017px;
+  min-width: 1728px;
+}
+
+.tela-transfer-verso .overlap-group3 {
+  align-items: center;
+  background-color: var(--white);
+  box-shadow: 0px 4px 4px #0000001f;
+  display: flex;
+  flex-direction: column;
+  min-height: 1017px;
+  padding: 24px;
+  width: 297px;
+}
+
+.tela-transfer-verso .line-38 {
+  align-self: flex-start;
+  height: 1px;
+  margin-top: 131px;
+  width: 236px;
+}
+
+.tela-transfer-verso .line-37 {
+  height: 1px;
+  margin-right: 1.0px;
+  margin-top: 681px;
+  width: 236px;
+}
+
+.tela-transfer-verso .line-39 {
+  height: 1px;
+  margin-right: 1.0px;
+  margin-top: 82px;
+  width: 236px;
+}
+
+.tela-transfer-verso .skybank-container {
+  align-items: flex-start;
+  display: flex;
+  gap: 8px;
+  height: 49px;
+  margin-right: 8.0px;
+  margin-top: 23px;
+  min-width: 191px;
+}
+
+.tela-transfer-verso .skybank-cloud {
+  align-self: flex-end;
+  height: 48px;
+  object-fit: cover;
+  width: 56px;
+}
+
+.tela-transfer-verso .sky-bank {
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 47px;
+  opacity: 0.2;
+  width: 127px;
+}
+
+.tela-transfer-verso .overlap-group2 {
+  align-items: flex-end;
+  background-color: var(--gallery);
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  min-height: 1017px;
+  padding: 43px 177px;
+  width: 1431px;
+}
+
+.tela-transfer-verso .flex-row {
+  align-items: flex-start;
+  display: flex;
+  gap: 27px;
+  min-width: 1063px;
+}
+
+.tela-transfer-verso .overlap-group5 {
+  align-items: flex-start;
+  background-color: var(--white);
+  border-radius: 15px;
+  box-shadow: 0px 4px 4px #0000000d;
+  display: flex;
+  flex-direction: column;
+  gap: 80px;
+  min-height: 337px;
+  padding: 10px 0;
+  width: 500px;
+}
+
+.tela-transfer-verso .conta {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 22px;
+  min-height: 52px;
+  width: 124px;
+}
+
+.tela-transfer-verso .line-40 {
+  height: 1px;
+  width: 500px;
+}
+
+.tela-transfer-verso .rectangle-189 {
+  background-color: var(--white);
+  border: 1px none;
+  border-radius: 15px;
+  box-shadow: 0px 4px 4px #0000000d;
+  height: 337px;
+  width: 536px;
+}
+
+.tela-transfer-verso .overlap-group4 {
+  height: 533px;
+  position: relative;
+  width: 1063px;
+}
+
+.tela-transfer-verso .rectangle-202 {
+  background-color: var(--white);
+  border: 1px none;
+  border-radius: 15px;
+  box-shadow: 0px 4px 4px #0000000d;
+  height: 533px;
+  left: 1px;
+  position: absolute;
+  top: 0;
+  width: 1062px;
+}
+
+.tela-transfer-verso .line-68 {
+  height: 1px;
+  left: 0;
+  position: absolute;
+  top: 53px;
+  width: 1063px;
+}
+
+.tela-transfer-verso .line-66 {
+  height: 1px;
+  left: 97px;
+  position: absolute;
+  top: 396px;
+  width: 402px;
+}
+
+.tela-transfer-verso .overlap-group-1 {
+  height: 136px;
+  left: 84px;
+  position: absolute;
+  top: 123px;
+  width: 441px;
+}
+
+.tela-transfer-verso .qual-o-valor-da {
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+  width: 440px;
+}
+
+.tela-transfer-verso .transferncia {
+  left: 1px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 61px;
+  width: 440px;
+}
+
+.tela-transfer-verso .line-67 {
+  height: 1px;
+  left: 593px;
+  position: absolute;
+  top: 245px;
+  width: 402px;
+}
+
+.tela-transfer-verso .botao-config {
+  align-items: flex-start;
+  display: flex;
+  gap: 19px;
+  height: 37px;
+  left: 24px;
+  min-width: 201px;
+  position: absolute;
+  top: 196px;
+}
+
+.tela-transfer-verso .icon-settings {
+  height: 22px;
+  margin-top: 3px;
+  width: 23px;
+}
+
+.tela-transfer-verso .configuraes {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  min-height: 37px;
+  width: 157px;
+}
+
+.tela-transfer-verso .paginal_inicial_icone {
+  align-items: center;
+  display: flex;
+  height: 59px;
+  left: 0;
+  min-width: 225px;
+  position: absolute;
+  top: 121px;
+}
+
+.tela-transfer-verso .rectangle-186 {
+  background: linear-gradient(180deg, rgb(39, 153, 242) 0%, rgb(90, 178, 245) 100%);
+  border: 1px none;
+  border-radius: 0px 10px 10px 0px;
+  height: 59px;
+  width: 4px;
+}
+
+.tela-transfer-verso .overlap-group6 {
+  height: 20px;
+  margin-bottom: 0.8px;
+  margin-left: 20px;
+  position: relative;
+  width: 24px;
+}
+
+.tela-transfer-verso .rectangle-46 {
+  border: 2px solid;
+  border-color: transparent;
+  border-image: linear-gradient(to bottom, rgb(90, 178, 245), rgb(38, 154, 242)) 1;
+  border-radius: 2px;
+  height: 13px;
+  left: 2px;
+  position: absolute;
+  top: 8px;
+  width: 20px;
+}
+
+.tela-transfer-verso .line-9 {
+  height: 1px;
+  left: 2px;
+  position: absolute;
+  top: 10px;
+  width: 21px;
+}
+
+.tela-transfer-verso .rectangle-47 {
+  border: 2px solid;
+  border-color: transparent;
+  border-image: linear-gradient(to bottom, rgb(90, 178, 245), rgb(38, 154, 242)) 1;
+  border-radius: 1px;
+  height: 10px;
+  left: 8px;
+  position: absolute;
+  top: 11px;
+  width: 8px;
+}
+
+.tela-transfer-verso .rectangle-48 {
+  background-color: var(--white);
+  border: 1px none;
+  height: 8px;
+  left: 10px;
+  position: absolute;
+  top: 13px;
+  width: 4px;
+}
+
+.tela-transfer-verso .line-10 {
+  height: 11px;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 12px;
+}
+
+.tela-transfer-verso .line-11 {
+  height: 11px;
+  left: 12px;
+  position: absolute;
+  top: 0;
+  width: 12px;
+}
+
+.tela-transfer-verso .pgina-inicial {
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent;
+  background: linear-gradient(180deg, rgb(90, 178, 245) 0%, rgb(39, 152, 242) 100%);
+  background-clip: text;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 18px;
+  margin-top: 4.0px;
+  min-height: 37px;
+  text-fill-color: transparent;
+  width: 157px;
+}
+
+.tela-transfer-verso .ol-nome-do-usuario {
+  left: 109px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 22px;
+  width: 405px;
+}
+
+.tela-transfer-verso .group-46 {
+  align-items: center;
+  background-color: var(--malibu);
+  border-radius: 33px/32.5px;
+  display: flex;
+  flex-direction: column;
+  gap: 3px;
+  left: 24px;
+  min-height: 65px;
+  padding: 7px 0;
+  position: absolute;
+  top: 17px;
+  width: 66px;
+}
+
+.tela-transfer-verso .ellipse-63 {
+  border: 2.5px solid;
+  border-color: var(--white);
+  border-radius: 7.5px;
+  height: 15px;
+  margin-right: 1.0px;
+  margin-top: 10px;
+  width: 15px;
+}
+
+.tela-transfer-verso .ellipse-64 {
+  border: 3px solid;
+  border-color: var(--white);
+  border-radius: 12px/11.5px;
+  height: 23px;
+  width: 24px;
+}
+
+.tela-transfer-verso .botao-sair {
+  align-items: flex-start;
+  display: flex;
+  gap: 13px;
+  height: 37px;
+  left: 27px;
+  min-width: 89px;
+  position: absolute;
+  top: 962px;
+}
+
+.tela-transfer-verso .overlap-group-2 {
+  align-self: center;
+  height: 22px;
+  margin-bottom: 5.0px;
+  position: relative;
+  width: 21px;
+}
+
+.tela-transfer-verso .rectangle-180 {
+  border: 2px solid;
+  border-color: var(--cape-cod);
+  border-radius: 3px;
+  height: 22px;
+  left: 6px;
+  position: absolute;
+  top: 0;
+  width: 15px;
+}
+
+.tela-transfer-verso .line-32 {
+  height: 1px;
+  left: 2px;
+  position: absolute;
+  top: 14px;
+  width: 13px;
+}
+
+.tela-transfer-verso .line-31 {
+  height: 1px;
+  left: 1px;
+  position: absolute;
+  top: 12px;
+  width: 13px;
+}
+
+.tela-transfer-verso .vector-19 {
+  height: 6px;
+  left: 0;
+  position: absolute;
+  top: 8px;
+  width: 3px;
+}
+
+.tela-transfer-verso .sair {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  min-height: 37px;
+  width: 53px;
+}
+
+.tela-transfer-verso .overlap-group7 {
+  align-items: flex-start;
+  background: linear-gradient(180deg, rgb(39, 190, 254) 0%, rgb(38, 154, 242) 100%);
+  border-radius: 11px;
+  box-shadow: 0px 4px 4px #00000036;
+  display: flex;
+  flex-direction: column;
+  left: 1039px;
+  min-height: 293px;
+  position: absolute;
+  top: 165px;
+  width: 487px;
+}
+
+.tela-transfer-verso .overlap-group2-1 {
+  height: 46px;
+  margin-left: 49px;
+  margin-top: 36px;
+  position: relative;
+  width: 210px;
+}
+
+.tela-transfer-verso .nome-do-usuario {
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 18px;
+  width: 210px;
+}
+
+.tela-transfer-verso .place {
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+  width: 70px;
+}
+
+.tela-transfer-verso .flex-row-1 {
+  align-items: flex-end;
+  align-self: center;
+  display: flex;
+  margin-left: 17.0px;
+  margin-top: 21px;
+  min-width: 406px;
+}
+
+.tela-transfer-verso .overlap-group3-1 {
+  align-self: flex-start;
+  height: 48px;
+  position: relative;
+  width: 222px;
+}
+
+.tela-transfer-verso .address {
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 20px;
+  width: 222px;
+}
+
+.tela-transfer-verso .nmero {
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+  width: 70px;
+}
+
+.tela-transfer-verso .icon-copy {
+  height: 17px;
+  margin-bottom: 0.44px;
+  margin-left: 29px;
+  width: 17px;
+}
+
+.tela-transfer-verso .copiar {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-bottom: 0.44px;
+  margin-left: 10px;
+  min-height: 23px;
+  width: 70px;
+}
+
+.tela-transfer-verso .vector-18 {
+  height: 15px;
+  margin-left: 51px;
+  width: 7px;
+}
+
+.tela-transfer-verso .overlap-group-container-1 {
+  align-items: flex-start;
+  display: flex;
+  gap: 10px;
+  margin-left: 49px;
+  margin-top: 5px;
+  min-width: 160px;
+}
+
+.tela-transfer-verso .overlap-group {
+  height: 46px;
+  position: relative;
+  width: 75px;
+}
+
+.tela-transfer-verso .text-7 {
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 16px;
+  width: 75px;
+}
+
+.tela-transfer-verso .validade {
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+  width: 70px;
+}
+
+.tela-transfer-verso .number {
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 16px;
+  width: 75px;
+}
+
+.tela-transfer-verso .cvc {
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+  width: 70px;
+}
+
+.tela-transfer-verso .rectangle-176 {
+  background-color: var(--cape-cod-2);
+  border: 1px none;
+  border-radius: 0px 0px 11px 11px;
+  height: 54px;
+  margin-top: 37px;
+  width: 487px;
+}
+
+.tela-transfer-verso .group-59 {
+  align-items: flex-start;
+  display: flex;
+  gap: 11px;
+  height: 89px;
+  left: 509px;
+  min-width: 360px;
+  position: absolute;
+  top: 184px;
+}
+
+.tela-transfer-verso .price {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: -1px;
+  min-height: 89px;
+  width: 324px;
+}
+
+.tela-transfer-verso .group-21 {
+  align-self: center;
+  height: 22px;
+  margin-top: 1.0px;
+  width: 23px;
+}
+
+.tela-transfer-verso .icon-deposit {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 17px;
+  left: 844px;
+  min-height: 135px;
+  position: absolute;
+  top: 311px;
+  width: 109px;
+}
+
+.tela-transfer-verso .overlap-group8 {
+  background-color: var(--white-2);
+  border: 2px solid;
+  border-color: var(--bon-jour);
+  border-radius: 46px/45.5px;
+  height: 91px;
+  position: relative;
+  width: 92px;
+}
+
+.tela-transfer-verso .rectangle-161 {
+  border: 3px solid;
+  border-color: var(--cape-cod);
+  border-radius: 4px;
+  height: 26px;
+  left: 21px;
+  position: absolute;
+  top: 30px;
+  width: 46px;
+}
+
+.tela-transfer-verso .ellipse-54 {
+  border: 2px solid;
+  border-color: var(--gravel);
+  border-radius: 6px;
+  height: 12px;
+  left: 38px;
+  position: absolute;
+  top: 37px;
+  width: 12px;
+}
+
+.tela-transfer-verso .rectangle-162 {
+  background-color: var(--cape-cod);
+  border: 2px solid;
+  border-color: var(--white);
+  height: 17px;
+  left: 51px;
+  position: absolute;
+  top: 44px;
+  width: 8px;
+}
+
+.tela-transfer-verso .polygon-7 {
+  height: 6px;
+  left: 50px;
+  position: absolute;
+  top: 57px;
+  width: 10px;
+}
+
+.tela-transfer-verso .depositar {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 2px;
+  min-height: 26px;
+  width: 105px;
+}
+
+.tela-transfer-verso .icon-transfer-selec {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 17px;
+  left: 699px;
+  min-height: 135px;
+  position: absolute;
+  top: 311px;
+  width: 108px;
+}
+
+.tela-transfer-verso .overlap-group9 {
+  background-color: var(--white-2);
+  border: 2px solid;
+  border-color: var(--picton-blue-5);
+  border-radius: 46px/45.5px;
+  height: 91px;
+  position: relative;
+  width: 92px;
+}
+
+.tela-transfer-verso .rectangle-163 {
+  border: 3px solid;
+  border-color: #42a6f4;
+  border-radius: 4px;
+  height: 26px;
+  left: 21px;
+  position: absolute;
+  top: 29px;
+  width: 46px;
+}
+
+.tela-transfer-verso .ellipse-55 {
+  border: 2px solid;
+  border-color: #43a6f4;
+  border-radius: 6.5px/6px;
+  height: 12px;
+  left: 37px;
+  position: absolute;
+  top: 36px;
+  width: 13px;
+}
+
+.tela-transfer-verso .rectangle-164 {
+  background-color: #42a6f4;
+  border: 2px solid;
+  border-color: var(--white);
+  height: 17px;
+  left: 51px;
+  position: absolute;
+  top: 46px;
+  width: 8px;
+}
+
+.tela-transfer-verso .polygon-8 {
+  height: 6px;
+  left: 50px;
+  position: absolute;
+  top: 44px;
+  width: 10px;
+}
+
+.tela-transfer-verso .transferir {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 1px;
+  min-height: 26px;
+  width: 105px;
+}
+
+.tela-transfer-verso .icon-ativ {
+  align-items: flex-start;
+  display: flex;
+  flex-direction: column;
+  gap: 17px;
+  left: 545px;
+  min-height: 135px;
+  position: absolute;
+  top: 311px;
+  width: 96px;
+}
+
+.tela-transfer-verso .overlap-group10 {
+  align-items: flex-start;
+  background-color: var(--white-2);
+  border: 2px solid;
+  border-color: var(--bon-jour);
+  border-radius: 46px/45.5px;
+  display: flex;
+  height: 91px;
+  min-width: 92px;
+  padding: 28px 21px;
+}
+
+.tela-transfer-verso .group-87 {
+  align-items: center;
+  border: 3px solid;
+  border-color: var(--cape-cod);
+  display: flex;
+  flex-direction: column;
+  min-height: 31px;
+  padding: 6px 0;
+  width: 46px;
+}
+
+.tela-transfer-verso .line-52 {
+  height: 1px;
+  margin-right: 7.0px;
+  width: 43px;
+}
+
+.tela-transfer-verso .line-53 {
+  height: 1px;
+  margin-right: 6.0px;
+  margin-top: 6px;
+  width: 22px;
+}
+
+.tela-transfer-verso .line-54 {
+  height: 1px;
+  margin-right: 6.0px;
+  margin-top: 5px;
+  width: 22px;
+}
+
+.tela-transfer-verso .atividade {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 1px;
+  min-height: 26px;
+  width: 93px;
+}
+
+.tela-transfer-verso .transferir-1 {
+  left: 510px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 536px;
+  width: 206px;
+}
+
+.tela-transfer-verso .saldo-disponvel-em-conta-r-250000 {
+  left: 579px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 789px;
+  width: 463px;
+}
+
+.tela-transfer-verso .span1 {
+  color: var(--cape-cod);
+  font-family: var(--font-family-baloo_da_2);
+  font-size: var(--font-size-m);
+  font-weight: 700;
+}
+
+.tela-transfer-verso .price-1 {
+  left: 612px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 836px;
+  width: 324px;
+}
+
+.tela-transfer-verso .overlap-group11 {
+  align-items: flex-start;
+  background-image: url(../img/rectangle-81-13@2x.png);
+  background-size: 100% 100%;
+  display: flex;
+  height: 55px;
+  justify-content: flex-end;
+  left: 1077px;
+  min-width: 411px;
+  padding: 8.0px 142.0px;
+  position: absolute;
+  top: 877px;
+}
+
+.tela-transfer-verso .transferir-2 {
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 32px;
+  width: 113px;
+}
+
+.tela-transfer-verso .nome-cpfcnpj {
+  left: 1089px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 725px;
+  width: 274px;
+}

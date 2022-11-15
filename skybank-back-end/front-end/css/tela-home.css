@@ -1,0 +1,194 @@
+/* screen - tela-home */
+
+.tela-home {
+  align-items: flex-start;
+  background: linear-gradient(180deg, rgb(255, 255, 255) 100%);
+  background-color: rgba(255,255,255,1.0);
+  border: 1px none;
+  display: flex;
+  min-width: 1728px;
+}
+
+.tela-home .overlap-group-container {
+  align-items: flex-start;
+  background-image: url(../img/rectangle-73-1@1x.png);
+  background-size: 100% 100%;
+  display: flex;
+  gap: 14px;
+  height: 1117px;
+  justify-content: flex-end;
+  margin-top: 1px;
+  min-width: 1728px;
+  padding: 186px 131px;
+}
+
+.tela-home .overlap-group2 {
+  height: 700px;
+  position: relative;
+  width: 1009px;
+}
+
+.tela-home .investindo-com-a-sky-bank-o-cu-o-limite {
+  height: 305px;
+  left: 0;
+  position: absolute;
+  top: 39px;
+  width: 475px;
+}
+
+.tela-home .card-home {
+  height: 700px;
+  left: 395px;
+  position: absolute;
+  top: 0;
+  width: 614px;
+}
+
+.tela-home .overlap-group1 {
+  align-items: flex-start;
+  align-self: center;
+  background-image: url(../img/rectangle-75-1@1x.png);
+  background-size: 100% 100%;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 15.0px;
+  min-height: 518px;
+  padding: 63px 43px;
+  width: 432px;
+}
+
+.tela-home .entrar {
+  align-self: center;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-right: 2.0px;
+  min-height: 47px;
+  width: 106px;
+}
+
+.tela-home .cpf {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: 64px;
+  min-height: 31px;
+  width: 46px;
+}
+
+.tela-home .line-18 {
+  height: 1px;
+  margin-top: 1px;
+  width: 345px;
+}
+
+.tela-home .senha {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: 36px;
+  min-height: 31px;
+  width: 67px;
+}
+
+.tela-home .line-19 {
+  height: 2px;
+  margin-top: 1px;
+  width: 345px;
+}
+
+.tela-home .overlap-group3 {
+  border-radius: 10px;
+  height: 53px;
+  margin-top: 60px;
+  position: relative;
+  width: 345px;
+}
+
+.tela-home .no-tem-uma-conta {
+  color: var(--cape-cod);
+  font-family: var(--font-family-baloo_da_2);
+  font-size: 22px;
+  font-weight: 400;
+  left: 12px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 8px;
+  width: 289px;
+}
+
+.tela-home .cadastre-se {
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent;
+  background: linear-gradient(180deg, rgb(39, 190, 254) 0%, rgb(87, 178, 248) 100%);
+  background-clip: text;
+  color: transparent;
+  font-family: var(--font-family-baloo_da_2);
+  font-size: 22px;
+  font-weight: 400;
+  left: 209px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  text-fill-color: transparent;
+  top: 8px;
+  width: 115px;
+}
+
+.tela-home .spanrfqs8 {
+  color: var(--black);
+}
+
+.tela-home .boto-entrar {
+  align-items: flex-start;
+  background: linear-gradient(180deg, rgb(39, 190, 254) 0%, rgb(86.65, 178.15, 247.56) 100%);
+  border: 1px none;
+  border-radius: 10px;
+  display: flex;
+  height: 53px;
+  left: 0;
+  min-width: 345px;
+  padding: 6px 139px;
+  position: absolute;
+  top: 0;
+}
+
+.tela-home .entrar-1 {
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 31px;
+  width: 67px;
+}
+
+.tela-home .overlap-group4 {
+  align-self: flex-end;
+  height: 31px;
+  margin-right: 1px;
+  margin-top: 3px;
+  position: relative;
+  width: 337px;
+}
+
+.tela-home .ainda-no-tem-uma-conta {
+  color: #585858;
+  font-family: var(--font-family-baloo_da_2);
+  font-size: var(--font-size-s);
+  font-weight: 400;
+  left: 0;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+  width: 236px;
+}
+
+.tela-home .cadastre-se-1 {
+  color: #35bbfd;
+  font-family: var(--font-family-baloo_da_2);
+  font-size: var(--font-size-s);
+  font-weight: 400;
+  left: 231px;
+  letter-spacing: 0;
+  line-height: normal;
+  position: absolute;
+  top: 0;
+  width: 106px;
+}

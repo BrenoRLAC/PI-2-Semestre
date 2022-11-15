@@ -1,0 +1,315 @@
+:root { 
+  --black: #000000;
+  --bon-jour: #dfdfdf;
+  --bon-jour-2: #e1e1e1;
+  --cape-cod: #414141;
+  --cape-cod-2: #414141d6;
+  --celeste: #cbcbcb;
+  --dodger-blue: #269af2;
+  --dodger-blue-2: #2e9cf3;
+  --fern: #55b865;
+  --flush-mahogany: #c53c3c;
+  --gallery: #efefef80;
+  --gravel: #494949;
+  --malibu: #8ac9f980;
+  --nobel: #b0b0b0;
+  --picton-blue: #44a7f4;
+  --picton-blue-2: #3ca3f4;
+  --picton-blue-3: #43a7f4;
+  --picton-blue-4: #3da3f4;
+  --picton-blue-5: #3ea4f4;
+  --pink-swan: #b6b6b6;
+  --silver-chalice: #aeaeae;
+  --white: #ffffff;
+  --white-2: #ffffffcc;
+ 
+  --font-size-l: 28px;
+  --font-size-m: 24px;
+  --font-size-s: 20px;
+  --font-size-xl: 32px;
+  --font-size-xs: 16px;
+  --font-size-xxl: 36px;
+  --font-size-xxxl: 56px;
+ 
+  --font-family-baloo_da-regular: "Baloo Da-Regular", Helvetica;
+  --font-family-baloo_da_2: "Baloo Da 2", Helvetica;
+  --font-family-baloo_tammudu_2: "Baloo Tammudu 2", Helvetica;
+  --font-family-barlow: "Barlow", Helvetica;
+}
+.balooda-regular-normal-cape-cod-20px {
+  color: var(--cape-cod);
+  font-family: var(--font-family-baloo_da-regular);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.balooda-regular-normal-cape-cod-56px {
+  color: var(--cape-cod);
+  font-family: var(--font-family-baloo_da-regular);
+  font-size: var(--font-size-xxxl);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.balooda2-normal-silver-chalice-20px {
+  color: var(--silver-chalice);
+  font-family: var(--font-family-baloo_da_2);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.balooda2-normal-cape-cod-24px {
+  color: var(--cape-cod);
+  font-family: var(--font-family-baloo_da_2);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.balooda2-normal-white-24px {
+  color: var(--white);
+  font-family: var(--font-family-baloo_da_2);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.balooda2-semi-bold-cape-cod-32px {
+  color: var(--cape-cod);
+  font-family: var(--font-family-baloo_da_2);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 600;
+}
+
+.balooda2-medium-white-16px {
+  color: var(--white);
+  font-family: var(--font-family-baloo_da_2);
+  font-size: var(--font-size-xs);
+  font-style: normal;
+  font-weight: 500;
+}
+
+.balooda2-normal-white-16px {
+  color: var(--white);
+  font-family: var(--font-family-baloo_da_2);
+  font-size: var(--font-size-xs);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.balooda2-normal-silver-chalice-32px {
+  color: var(--silver-chalice);
+  font-family: var(--font-family-baloo_da_2);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.balootammudu2-semi-bold-dodger-blue-30px {
+  color: var(--dodger-blue);
+  font-family: var(--font-family-baloo_tammudu_2);
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 600;
+}
+
+.balooda-regular-normal-white-36px {
+  color: var(--white);
+  font-family: var(--font-family-baloo_da-regular);
+  font-size: var(--font-size-xxl);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.balooda-regular-normal-cape-cod-34px {
+  color: var(--cape-cod);
+  font-family: var(--font-family-baloo_da-regular);
+  font-size: 34px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.balooda-regular-normal-cape-cod-36px {
+  color: var(--cape-cod);
+  font-family: var(--font-family-baloo_da-regular);
+  font-size: var(--font-size-xxl);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.balooda2-normal-cape-cod-36px {
+  color: var(--cape-cod);
+  font-family: var(--font-family-baloo_da_2);
+  font-size: var(--font-size-xxl);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.balooda2-bold-white-24px {
+  color: var(--white);
+  font-family: var(--font-family-baloo_da_2);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.balooda2-bold-white-20px {
+  color: var(--white);
+  font-family: var(--font-family-baloo_da_2);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.balooda-regular-normal-cape-cod-48px {
+  color: var(--cape-cod);
+  font-family: var(--font-family-baloo_da-regular);
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.balooda2-normal-cape-cod-28px {
+  color: var(--cape-cod);
+  font-family: var(--font-family-baloo_da_2);
+  font-size: var(--font-size-l);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.balooda2-normal-nobel-24px {
+  color: var(--nobel);
+  font-family: var(--font-family-baloo_da_2);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.balooda-regular-normal-picton-blue-20px {
+  color: var(--picton-blue);
+  font-family: var(--font-family-baloo_da-regular);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.balooda-regular-normal-white-20px {
+  font-family: var(--font-family-baloo_da-regular);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.balooda-regular-normal-black-20px {
+  color: var(--black);
+  font-family: var(--font-family-baloo_da-regular);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.balooda-regular-normal-white-32px {
+  color: var(--white);
+  font-family: var(--font-family-baloo_da-regular);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.balooda2-semi-bold-silver-chalice-32px {
+  color: var(--silver-chalice);
+  font-family: var(--font-family-baloo_da_2);
+  font-size: var(--font-size-xl);
+  font-style: normal;
+  font-weight: 600;
+}
+
+.balooda2-normal-dodger-blue-24px {
+  color: var(--dodger-blue-2);
+  font-family: var(--font-family-baloo_da_2);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.balooda2-bold-white-16px {
+  color: var(--white);
+  font-family: var(--font-family-baloo_da_2);
+  font-size: var(--font-size-xs);
+  font-style: normal;
+  font-weight: 700;
+}
+
+.barlow-normal-white-64px {
+  color: var(--white);
+  font-family: var(--font-family-barlow);
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 400;
+}
+
+.balooda2-normal-flush-mahogany-24px {
+  color: var(--flush-mahogany);
+  font-family: var(--font-family-baloo_da_2);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.balooda2-normal-fern-24px {
+  color: var(--fern);
+  font-family: var(--font-family-baloo_da_2);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.balooda2-semi-bold-cape-cod-20px {
+  color: var(--cape-cod);
+  font-family: var(--font-family-baloo_da_2);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 600;
+}
+
+.balooda-regular-normal-picton-blue-20px-2 {
+  color: var(--picton-blue-3);
+  font-family: var(--font-family-baloo_da-regular);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.balooda2-normal-pink-swan-36px {
+  color: var(--pink-swan);
+  font-family: var(--font-family-baloo_da_2);
+  font-size: var(--font-size-xxl);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.balooda-regular-normal-picton-blue-20px-3 {
+  color: var(--picton-blue-4);
+  font-family: var(--font-family-baloo_da-regular);
+  font-size: var(--font-size-s);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.balooda2-normal-white-24px-2 {
+  font-family: var(--font-family-baloo_da_2);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}
+
+.balooda2-normal-black-24px {
+  color: var(--black);
+  font-family: var(--font-family-baloo_da_2);
+  font-size: var(--font-size-m);
+  font-style: normal;
+  font-weight: 400;
+}

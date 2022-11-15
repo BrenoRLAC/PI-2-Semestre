@@ -1,0 +1,79 @@
+/* screen - desconnect */
+
+.desconnect {
+  align-items: center;
+  background-color: var(--white);
+  border: 1px none;
+  border-radius: 15px;
+  box-shadow: 0px 4px 4px #0000000d;
+  display: flex;
+  flex-direction: column;
+  min-height: 346px;
+  overflow-x: hidden;
+  padding: 80px 33.0px;
+  width: 672px;
+}
+
+.desconnect .deseja-realmente-desconectar {
+  letter-spacing: 0;
+  line-height: normal;
+  margin-left: 1.0px;
+  min-height: 52px;
+  width: 523px;
+}
+
+.desconnect .line-51 {
+  align-self: flex-end;
+  height: 1px;
+  margin-top: 22px;
+  width: 605px;
+}
+
+.desconnect .overlap-group-container {
+  align-items: center;
+  display: flex;
+  gap: 43px;
+  margin-left: 10.88px;
+  margin-top: 42px;
+  min-width: 385px;
+}
+
+.desconnect .overlap-group {
+  align-items: flex-start;
+  border-radius: 10px;
+  display: flex;
+  height: 55px;
+  justify-content: flex-end;
+  min-width: 170px;
+  padding: 6px 61.9px;
+}
+
+.desconnect .no {
+  -webkit-background-clip: text !important;
+  -webkit-text-fill-color: transparent;
+  background: linear-gradient(180deg, rgb(39, 190, 254) 0%, rgb(38, 154, 242) 100%);
+  background-clip: text;
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 33px;
+  text-fill-color: transparent;
+  width: 46px;
+}
+
+.desconnect .overlap-group1 {
+  align-items: flex-start;
+  background-image: url(../img/botao-avancar-1@2x.png);
+  background-size: 100% 100%;
+  display: flex;
+  height: 55px;
+  justify-content: flex-end;
+  min-width: 170px;
+  padding: 7.0px 61.9px;
+}
+
+.desconnect .sim {
+  letter-spacing: 0;
+  line-height: normal;
+  min-height: 32px;
+  width: 45px;
+}
