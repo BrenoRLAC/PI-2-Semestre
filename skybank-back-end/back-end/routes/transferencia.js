@@ -7,5 +7,4 @@ const router = express.Router();
 router.post('/', contaController.getTransferencia);
 
 
-
 module.exports = router;

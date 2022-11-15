@@ -39,7 +39,7 @@ exports.getTransferencia = async (req, res, next) => {
     var senha = '81dc9bdb52d04dc20036dbd8313ed055';
 
     var comparar = hashSenha.localeCompare(senha)
-   
+
     if(comparar == -1){
       const valorSaldo =  await Conta.getSaldoClienteAtual(req.body.id);
       const valorSaldoAtual = valorSaldo[0][0].saldo_conta;
