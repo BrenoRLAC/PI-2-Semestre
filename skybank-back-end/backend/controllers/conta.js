@@ -26,7 +26,6 @@ exports.getLogin = async (req, res, next) => {
     
     if(comparar == -1){
       const loginUsuario = await Conta.getLogin(req.body.id, req.body.email, senha);
-      console.log(loginUsuario.values)
       res.status(200).json(loginUsuario);
     }
     else{
@@ -49,7 +48,7 @@ exports.getTransferencia = async (req, res, next) => {
     var senha = '81dc9bdb52d04dc20036dbd8313ed055';
 
     var comparar = hashSenha.localeCompare(senha)
-    
+    console.log(loginUsuario[0])
     if(comparar == -1){
       const loginUsuario = await Conta.getTransferencia(req.body.id, req.body.numeroConta, req.body.agenciaConta, req.body.operacao, senha);
       console.log(loginUsuario[0])

@@ -8,7 +8,7 @@ router.get('/:id', contaController.getConta);
 
 router.get('/', contaController.getLogin);
 
-router.get('/', contaController.getTransferencia);
+router.get('/transferencia', contaController.getTransferencia);
 
 router.post('/', contaController.postGrocery);
 
