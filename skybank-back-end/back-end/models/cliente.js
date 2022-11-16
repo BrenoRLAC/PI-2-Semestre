@@ -1,19 +1,31 @@
 const db = require('../util/database');
 
 module.exports = class Cliente {
-    constructor(id, senha) {
+    constructor(id, endereco, bairro, cidade, cep, uf) {
       this.id = id;
-      this.senha = senha
+      this.endereco = endereco, 
+      this.bairro = bairro,
+      this.cidade = cidade, 
+      this.cep = cep,
+      this.uf = uf,
+      this.email = email,
+      this.senha = senha,
+      this.nome = nome
 
     }
 
   static getClienteInfo(id) {
-    return db.execute('select endereco, bairro, cidade, cep, uf, complemento from endereco where cod_cli = ?', [id]);
+    return db.execute('select endereco, bairro, cidade, cep, uf, complemento from endereco where cod_end = ?', [id]);
   }
 
-  static updateCliente(id, endereco, bairro, cidade, cep, uf) {
-    return db.execute('updade endereco set endereco = ?, bairro = ?, cidade = ?,cep = ?, uf = ? where cod_end = ?', [id,endereco, bairro, cidade, cep, uf]);
-    
+  static updateClienteEndereco(endereco, bairro, cidade, cep, uf, id) {
+    return db.execute('update endereco set endereco = ?, bairro = ?, cidade = ?, cep = ?, uf = ? where cod_end = ? ', 
+    [endereco, bairro, cidade, cep, uf, id]);
+  }
+
+  static updateClienteConta(nome,email, senha, id) {
+    return db.execute("update cliente set nome = ?, email = ?, senha = ? where cod_cli = ?",
+    [nome,email,senha, id]);
   }
 
 };

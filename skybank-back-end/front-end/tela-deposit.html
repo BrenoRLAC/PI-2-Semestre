@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
-    <script src="/skybank-back-end/front-end/scripts/login.js"></script>
+    <script src="scripts/conta.js"></script>
     <meta name="viewport" content="width=1728, maximum-scale=1.0" />
     <link rel="shortcut icon" type="image/png" href="https://animaproject.s3.amazonaws.com/home/favicon.png" />
     <meta name="og:type" content="website" />
@@ -29,9 +29,11 @@
                 <div class="overlap-group3">
                     
                     <div class="conta balooda2-normal-cape-cod-36px">
-                      <span class="balooda2-normal-cape-cod-36px" >Conta</span>
+                      <span class="balooda2-normal-cape-cod-36px" >Conta  </span>
+                      <label>R$100,00</label>
+                       
                   <div class="overlap-group4">
-                      <input type="text" class="ValContaFormat" placeholder= " R$100,00">
+                      
                     </div>
                   </div>
                   <img class="line-36" src="img/line-36-1@2x.png" alt="Line 36" />
@@ -87,7 +89,9 @@
               <span class="balooda2-medium-white-16px">Limite disponível de R$1.780,10</span>
             </div>
             <img class="x" src="img/-----1@2x.png" alt="****" />
+           <a href="tela-deposit-verso.html">
             <img class="vector-17" src="img/vector-17-1@2x.png" alt="Vector 17" />
+          </a>
             <img class="rectangle-70" src="img/rectangle-70-1@2x.png" alt="Rectangle 70" />
           </div>
             <a href="desconnect.html">
@@ -166,17 +170,17 @@
             </div>
             <div class="overlap-group2">
               <div class="price-1 balooda-regular-normal-cape-cod-56px">
-                <span class="balooda-regular-normal-cape-cod-56px"><input type="text" class="ValDepositFormat" placeholder= " R$100,00"></span>
+                <span class="balooda-regular-normal-cape-cod-56px"><input id="transferencia" type="text" class="ValDepositFormat" placeholder= " R$100,00"></span>
               </div>
               <img class="line-20" src="img/line-20-3@2x.png" alt="Line 20" />
             </div>
-            <a href="tela-ativ.html">
             <div class="overlap-group1-1">
               <div class="depositar-3 balooda2-normal-white-24px">
+                <button style="background: transparent; border:none;" onclick="depositar()">
                 <span class="balooda2-normal-white-24px">Depositar</span>
+              </button>
               </div>
             </div>
-            </a>
           </div>
         </div>
       </div>

@@ -92,10 +92,25 @@ exports.getTransferencia = async (req, res, next) => {
 };
 
 
-exports.updateCliente = async (req, res, next) => {
+exports.updateClienteEndereco = async (req, res, next) => {
   try {
-    const login = await Cliente.updateCliente(req.body.id, req.body.endereco, req.body.bairro, 
-      req.body.cidade, req.body.cep, req.body.uf);
+    const login = await Cliente.updateClienteEndereco(req.body.endereco, req.body.bairro, 
+      req.body.cidade, req.body.cep, req.body.uf, req.body.id);
+      console.log(login)
+    res.status(200).json(login);
+  } catch (err) {
+    if (!err.statusCode) {
+      err.statusCode = 500;
+    }
+    next(err);
+  }
+};
+
+exports.updateClienteConta = async (req, res, next) => {
+  try {
+    var hashSenha = hash.MD5(req.body.senha);    
+    const login = await Cliente.updateClienteConta(req.body.nome, req.body.email, hashSenha, req.body.id);
+
     res.status(200).json(login);
   } catch (err) {
     if (!err.statusCode) {

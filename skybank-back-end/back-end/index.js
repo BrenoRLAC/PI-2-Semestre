@@ -8,6 +8,8 @@ const clienteRouters = require('./routes/cliente');
 
 const transferenciaRouters = require('./routes/transferencia');
 
+const contaRouters = require('./routes/contacliente');
+
 const errorController = require('./controllers/error');
 
 const app = express();
@@ -28,6 +30,8 @@ app.use('/login', loginRouters);
 app.use('/cliente', clienteRouters);
 
 app.use('/transferencia', transferenciaRouters);
+
+app.use('/contacliente', contaRouters);
 
 app.use(errorController.get404);
 

@@ -2,8 +2,8 @@
 <html>
   <head>
     <meta charset="utf-8" />
-    <!--<meta name=description content="This site was generated with Anima. www.animaapp.com"/>-->
-    <!-- <link rel="shortcut icon" type=image/png href="https://animaproject.s3.amazonaws.com/home/favicon.png" /> -->
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="/skybank-back-end/front-end/scripts/conta.js"></script>
     <meta name="viewport" content="width=1728, maximum-scale=1.0" />
     <link rel="shortcut icon" type="image/png" href="https://animaproject.s3.amazonaws.com/home/favicon.png" />
     <meta name="og:type" content="website" />
@@ -193,13 +193,15 @@
             ><span class="span1">R$ 2.500,00</span>
           </p>
           <div class="price-1 balooda-regular-normal-cape-cod-56px">
-            <span class="balooda-regular-normal-cape-cod-56px"><input type="text" placeholder="R$0,00"></span>
+            <span class="balooda-regular-normal-cape-cod-56px"><input id="transferencia" type="text" placeholder="R$0,00"></span>
           </div>
-          <a href="tela-ativ-verso.html">
+  
           <div class="overlap-group11">
             <div class="transferir-2 balooda2-normal-white-24px">
-              <span class="balooda2-normal-white-24px">Transferir</span>
-            </a>
+              <button onclick="depositar()">
+                <span class="balooda2-normal-white-24px">Transferir</span>
+                </button>         
+      
             </div>
           </div>
           <div class="nome-cpfcnpj balooda2-normal-pink-swan-36px">

@@ -4,9 +4,7 @@ const contaController = require('../controllers/conta');
 
 const router = express.Router();
 
-router.get('/:id', contaController.getClienteInfo);
-
-router.put('/:id', contaController.updateCliente);
+router.put('/', contaController.updateClienteEndereco);
 
 
 
