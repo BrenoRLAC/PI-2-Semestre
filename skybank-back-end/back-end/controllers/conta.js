@@ -105,6 +105,21 @@ exports.updateClienteEndereco = async (req, res, next) => {
     next(err);
   }
 };
+//MÉTODO DE INSERÇÃO DE CLIENTES
+exports.insertCliente = async (req, res, next) => {
+  try {
+    var hashSenha = hash.MD5(req.body.senha);
+    const novoCliente = await Cliente.insertCliente(req.body.nome, req.body.email, 
+      req.body.cpf, req.body.nascimento, hashSenha);
+
+    res.status(200).json(novoCliente);
+  } catch (err) {
+    if (!err.statusCode) {
+      err.statusCode = 500;
+    }
+    next(err);
+  }
+};
 
 exports.updateClienteConta = async (req, res, next) => {
   try {

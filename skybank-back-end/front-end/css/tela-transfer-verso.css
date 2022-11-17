@@ -896,3 +896,22 @@
   top: 725px;
   width: 274px;
 }
+
+#pix1 {
+  width: 350px;
+  height: 45px;
+  background: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid black;
+}
+
+#tansferencia1 {
+  width: 350px;
+  height: 45px;
+  background: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid black;
+
+}

@@ -28,4 +28,9 @@ module.exports = class Cliente {
     [nome,email,senha, id]);
   }
 
+  static insertCliente(nome,email,cpf,nascimento,senha) {
+    return db.execute("insert into cliente (nome,email,cpf_cliente,data_nasc,senha) values (?,?,?,?,?)",
+    [nome,email,cpf,nascimento,senha]);
+  }
+
 };

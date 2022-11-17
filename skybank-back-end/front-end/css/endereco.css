@@ -609,6 +609,9 @@
 }
 
 
+p{
+  display: flex;
+}
 .endereco .group-164 {
   background-image: url(../img/rectangle-81-2@2x.png);
   margin-right:100px;

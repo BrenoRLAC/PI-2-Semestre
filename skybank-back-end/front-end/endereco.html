@@ -4,9 +4,10 @@
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" type="image/png" href="https://animaproject.s3.amazonaws.com/home/favicon.png" />
     <meta name="og:type" content="website" />
     <meta name="twitter:card" content="photo" />
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="scripts/endereco.js"></script>
     <link rel="stylesheet" type="text/css" href="css/endereco.css" />
     <link rel="stylesheet" type="text/css" href="css/styleguide.css" />
     <link rel="stylesheet" type="text/css" href="css/globals.css" />
@@ -69,13 +70,13 @@
               <span class="balooda2-semi-bold-cape-cod-32px">CEP</span>
             </div>
             <div class="text-4 balooda2-normal-silver-chalice-32px">
-              <span class="balooda2-normal-silver-chalice-32px"> <input type="text" id="edit_end" placeholder="00000-000"> </span>
+              <span class="balooda2-normal-silver-chalice-32px"><span>324-1452</span></span>
             </div>
             <div class="nome-da-ruaavenida balooda2-normal-silver-chalice-32px">
-              <span class="balooda2-normal-silver-chalice-32px"><input type="text" id="edit_end" placeholder="Nome da rua/avenida"></span>
+              <span class="balooda2-normal-silver-chalice-32px"><span>Lapa mercadão</span></span>
             </div>
             <div class="number balooda2-normal-silver-chalice-32px">
-              <span class="balooda2-normal-silver-chalice-32px"><input type="text" id="edit_end" placeholder="000"></span>
+              <span class="balooda2-normal-silver-chalice-32px"><span>93</span></span>
             </div>
             <div class="endereo balooda2-semi-bold-cape-cod-32px">
               <span class="balooda2-semi-bold-cape-cod-32px">Endereço</span>
@@ -91,25 +92,22 @@
             </div>
           </div>
           <div class="nome-do-bairro balooda2-normal-silver-chalice-32px">
-            <span class="balooda2-normal-silver-chalice-32px"><input type="text" id="edit_end" placeholder="Nome do bairro"></span>
+            <span class="balooda2-normal-silver-chalice-32px"><p>Vila ida</p></span>
           </div>
           <div class="sala-0 balooda2-normal-silver-chalice-32px">
-            <span class="balooda2-normal-silver-chalice-32px"><input type="text" id="edit_end" placeholder="Sala 0"> </span>
+            <span></span> 
+            <span class="balooda2-normal-silver-chalice-32px"></span>
           </div>
           <div class="bairro balooda2-semi-bold-cape-cod-32px">
             <span class="balooda2-semi-bold-cape-cod-32px">Bairro</span>
           </div>
-          <!--
-          <a href="alter-bairro.html">
-          <div class="group-164"><img class="group-15" src="img/group-157-1@2x.png" alt="Group 159" /></a></div>
-          -->
           <div class="overlap-group2">
             <div class="endereo-container">
               <div class="endereo-1 balooda-regular-normal-cape-cod-34px">
-                <span class="balooda-regular-normal-cape-cod-34px">Endereço</span>
+                <span id="endereco" class="balooda-regular-normal-cape-cod-34px">Endereço</span>
               </div>
               <p class="altere-seu-endereo-ou-adicione-outro balooda2-normal-cape-cod-24px">
-                <span class="balooda2-normal-cape-cod-24px">Altere seu endereço ou adicione outro</span>
+                <span class="balooda2-normal-cape-cod-24px">Veja seu endereço</span>
               </p>
             </div>
             <a href="tela-de-config.html">
@@ -129,18 +127,8 @@
           </div>
           <div class="group-53">
             <div class="ellipse-63-1"></div>
-            <div class="ellipse-64"></div>
-
-            
-
-            
-
-            
+            <div class="ellipse-64"></div>                 
           </div>
-          
-        </div>
-        <div class="group-164">            
-          <div class="salvar balooda2-normal-white-24px"><span class="balooda2-normal-white-24px">Salvar</span></div></a>
         </div>
     </div>
     

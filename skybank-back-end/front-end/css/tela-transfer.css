@@ -666,7 +666,7 @@
   width: 408px;
 }
 
-.tela-transfer .price-1 {
+.tela--sfer .price-1 {
   left: 0;
   letter-spacing: 0;
   line-height: normal;
@@ -724,4 +724,24 @@
   line-height: normal;
   min-height: 32px;
   width: 113px;
+  background: transparent;
+  
+}
+
+#transferencia {
+  width: 350px;
+  height: 45px;
+  background: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid black;
+}
+
+#pix {
+  width: 350px;
+  height: 45px;
+  background: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid black;
 }
