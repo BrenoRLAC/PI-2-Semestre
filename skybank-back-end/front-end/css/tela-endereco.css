@@ -55,9 +55,10 @@
 }
 
 .tela-endereco .overlap-group7 {
-  height: 34px;
+  height: 90px;
+  margin-left: 10px;  
   position: relative;
-  width: 352px;
+  width: 200px;
 }
 
 .tela-endereco .endereo-1 {
@@ -78,10 +79,11 @@
 }
 
 .tela-endereco .overlap-group3 {
-  height: 32px;
-  margin-left: 27px;
+  height: 90px;
+  margin-left: 30px;
   position: relative;
-  width: 94px;
+  width: 200px;
+  ;
 }
 
 .tela-endereco .nmero {
@@ -102,8 +104,8 @@
 }
 
 .tela-endereco .overlap-group5 {
-  height: 32px;
-  margin-left: 24px;
+  height: 90px;
+  margin-left: 10px;
   position: relative;
   width: 146px;
 }
@@ -135,8 +137,9 @@
 
 .tela-endereco .overlap-group6 {
   height: 32px;
+  margin-left: 70px;
   position: relative;
-  width: 181px;
+  width: 150px;
 }
 
 .tela-endereco .place {
@@ -158,9 +161,9 @@
 
 .tela-endereco .overlap-group {
   height: 32px;
-  margin-left: 28px;
+  margin-left: 30px;
   position: relative;
-  width: 60px;
+  width: 50px;
 }
 
 .tela-endereco .uf {
@@ -190,9 +193,9 @@
 
 .tela-endereco .overlap-group4 {
   height: 32px;
-  margin-left: 23px;
+  margin-left: 30px;
   position: relative;
-  width: 181px;
+  width: 200px;
 }
 
 .tela-endereco .bairro {
@@ -287,3 +290,84 @@
   top: 0;
   width: 2px;
 }
+
+/* endereco*/
+#campos {
+  width: 200px;
+  height: 45px;
+  margin: 0px;
+  background: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid black;
+}
+
+/* numero*/
+#campos_num {
+  width: 200px;
+  height: 45px;
+  margin: 0px;
+  background: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid black;
+
+}
+
+/*complemento */
+#campos1 {
+  width: 200px;
+  height: 45px;
+  margin: 0px;
+  background: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid black;
+}
+
+/*cidade */
+#campos_cid {
+  width: 150px;
+  height: 20px;
+  margin: 0px;
+  background: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid black;
+}
+/* UF*/
+#campos_uf {
+  width: 50px;
+  height: 20px;
+  margin: 0px;
+  background: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid black;
+}
+
+
+/* bairro*/
+#campos_bairro {
+  width: 190px;
+  height: 20px;
+  margin: 0px;
+  background: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid black;
+}
+
+
+/*cep */
+#campos_cep {
+  width: 150px;
+  height: 20px;
+  margin: 0px;
+  background: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid black;
+}
+
+

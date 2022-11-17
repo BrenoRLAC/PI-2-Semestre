@@ -930,3 +930,28 @@
   height: 54px;
   width: 487px;
 }
+.ValContaFormat{
+    
+    border: none;
+    width: 320px;
+    height: 51px;
+    font-size: 20px;
+       
+  background: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid black;
+    
+}
+.ValDepositFormat{
+    
+    width: 510px;
+    height: 51px;
+    font-size: 20px;
+    
+  background: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid black;
+    
+}

@@ -1,4 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Sono:wght@200;300;400;500;600;700;800&display=swap');
+
 /* screen - tela-home */
+*{
+  margin: 0;
+}
 
 .tela-home {
   align-items: flex-start;
@@ -6,7 +11,8 @@
   background-color: rgba(255,255,255,1.0);
   border: 1px none;
   display: flex;
-  min-width: 1728px;
+  min-width: 100%;
+  
 }
 
 .tela-home .overlap-group-container {
@@ -15,17 +21,18 @@
   background-size: 100% 100%;
   display: flex;
   gap: 14px;
-  height: 1117px;
+  /* height: 1117px; */
   justify-content: flex-end;
   margin-top: 1px;
-  min-width: 1728px;
-  padding: 186px 131px;
+  width: 100%;
+  /* min-width: 1728px; */
+  
 }
 
 .tela-home .overlap-group2 {
   height: 700px;
   position: relative;
-  width: 1009px;
+  width: 100%;
 }
 
 .tela-home .investindo-com-a-sky-bank-o-cu-o-limite {
@@ -34,11 +41,12 @@
   position: absolute;
   top: 39px;
   width: 475px;
+  
 }
 
 .tela-home .card-home {
   height: 700px;
-  left: 395px;
+  left: 350px;
   position: absolute;
   top: 0;
   width: 614px;
@@ -52,8 +60,8 @@
   display: flex;
   flex-direction: column;
   margin-bottom: 15.0px;
-  min-height: 518px;
-  padding: 63px 43px;
+  min-height: 520px;
+  padding: 50px 43px;
   width: 432px;
 }
 
@@ -191,4 +199,38 @@
   position: absolute;
   top: 0;
   width: 106px;
+}
+
+#cpf { 
+  width: 350px;
+  height: 45px;
+  background: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid black;
+}
+
+#senha{
+  width: 350px;
+  height: 45px;
+  background: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid black;
+}
+
+.texto-home{
+  font-family: 'Sono', sans-serif;
+  margin-top: 45px;
+  font-size: 55px;
+  color: #ffffff ;
+  width: 550px; 
+ }
+
+
+@media screen and (min-width:800px) {
+  .container{
+    margin: 1em 2em;
+  }
+  
 }

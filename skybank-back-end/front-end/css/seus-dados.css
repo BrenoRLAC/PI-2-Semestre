@@ -453,6 +453,16 @@
   border: 3px solid;
   border-color: var(--white);
   border-radius: 12px/11.5px;
-  height: 23px;
+  height: 35px;
   width: 24px;
+}
+.emailFormat{
+   width: 350px;
+  height: 45px;
+  background: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid black;
+    
+    
 }

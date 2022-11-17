@@ -1,3 +1,4 @@
+//FUNÇÃO QUE IRÁ FAZER COM QUE O ENDEREÇO SEJA ATUALIZADO
 function endereco() {
     let id = 1;
     let cep = document.querySelector("#cep").value;
@@ -15,10 +16,11 @@ function endereco() {
         "uf": uf
    
     }
-   
+    
+   //MÉTODO PUT QUE IRÁ ENVIAR A REQUISIÇÃO COM OS DADOS PARA ATUALIZAR OS VALORES DOS ENDEREÇOS
     axios.put("http://localhost:3000/contacliente", obj).then(result => {
         if(result.status == 200) {
-            console.log(result)
+            
             //VALIDAÇÃO DE LOGIN PELO ID PADRÃO QUE SERÁ 1
             if(result.data[0][0].cod_cli = 1){
                 window.location = "tela-deposit-verso.html";
@@ -36,21 +38,19 @@ function clienteConta() {
     let nome = document.querySelector("#nome").value;
     let email = document.querySelector("#email").value;
     let senha = document.querySelector("#senha").value;
-   console.log(nome, email, senha)
+
     let obj = {
         "id": id,
         "nome": nome,
         "email": email,
-        "senha": senha
-   
+        "senha": senha  
     }
-    axios.post("http://localhost:3000/contacliente", obj).then(result => {
+
+    axios.put("http://localhost:3000/contacliente", obj).then(result => {
         if(result.status == 200) {
-            console.log(result)
             //VALIDAÇÃO DE LOGIN PELO ID PADRÃO QUE SERÁ 1
-            if(result.data[0][0].cod_cli = 1){
-                window.location = "tela-deposit-verso.html";
-            }
+                window.location = "seus-dados.html";
+            
             
         } else {
             alert("Senha inválida");

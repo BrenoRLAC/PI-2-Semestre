@@ -114,3 +114,18 @@
   text-align: center;
   width: 151px;
 }
+.ValFaturaFormat{
+    border: none;
+    width: 405px;
+    height: 40px;
+    font-size: 20px;
+    font-weight: bold;
+    
+   
+
+  background: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid black;
+
+}

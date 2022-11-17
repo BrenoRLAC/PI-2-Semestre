@@ -814,3 +814,31 @@
   min-height: 32px;
   width: 142px;
 }
+.ValContaFormat{
+    border: none;
+    width: 320px;
+    height: 51px;
+    font-size: 20px;
+   
+  background: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid black;
+}
+.ValDepositFormat{
+    
+    border: none;
+    width: 510px;
+    height: 51px;
+    font-size: 20px;
+    
+  background: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid black;
+}
+#conta{
+    margin-left: 14px;
+    
+    
+}

@@ -159,3 +159,13 @@
   top: 732px;
   width: 68px;
 }
+
+#nome-completo {
+  width: 350px;
+  height: 45px;
+  background: transparent;
+  border: none;
+  outline: none;
+  border-bottom: 1px solid black;
+
+}
